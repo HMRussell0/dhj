@@ -1,0 +1,48 @@
+.main-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0.212)), url(./contact-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    display: grid;
+    grid-gap: 10px;
+    z-index: 2;
+    grid-template-columns: repeat(4, 150px);
+
+}
+.days{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.mintues{background-color: #000;color:#fff;text-align: center;}
+.hours{background-color: #000;color:#fff;text-align: center;}
+.secondes{background-color: #000;color:#fff;text-align: center;}
+.mintues, .hours, .secondes{
+    /* padding: 12px; */
+}
+.days h2, .hours h2, .mintues h2, .secondes h2 {
+    font: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.days span, .hours span, .mintues span, .secondes span {
+    font-weight: 900;
+    font-size: 41px;
+    display: inline-block;
+}
+.days span{}
+.eid-content{
+    display: none;
+}
+.show{
+    display: block;
+}
